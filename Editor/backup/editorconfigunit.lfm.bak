@@ -1,0 +1,399 @@
+object EditorConfigForm: TEditorConfigForm
+  Left = 360
+  Height = 312
+  Top = 186
+  Width = 619
+  BorderStyle = bsToolWindow
+  Caption = 'Настройки редактора'
+  ClientHeight = 312
+  ClientWidth = 619
+  OnActivate = FormActivate
+  Position = poMainFormCenter
+  LCLVersion = '2.0.8.0'
+  object PageControl1: TPageControl
+    Left = 3
+    Height = 281
+    Top = 1
+    Width = 615
+    ActivePage = TabSheet1
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'Редактор текста'
+      ClientHeight = 253
+      ClientWidth = 607
+      object GroupBox1: TGroupBox
+        Left = 0
+        Height = 144
+        Top = 4
+        Width = 296
+        Caption = 'Панель нумерации строк'
+        ClientHeight = 124
+        ClientWidth = 292
+        TabOrder = 0
+        object Label1: TLabel
+          Left = 10
+          Height = 15
+          Top = 6
+          Width = 152
+          Caption = 'Ширина панели, символов:'
+          ParentColor = False
+        end
+        object Editor_Num_Chars: TTrackBar
+          Tag = 1
+          Left = 189
+          Height = 25
+          Top = 3
+          Width = 98
+          Max = 8
+          Min = 3
+          OnChange = Editor_Num_CharsChange
+          Position = 5
+          TabOrder = 0
+        end
+        object Label2: TLabel
+          Left = 168
+          Height = 17
+          Top = 6
+          Width = 9
+          Caption = '5'
+          Font.CharSet = RUSSIAN_CHARSET
+          Font.Color = clBlack
+          Font.Height = -15
+          Font.Name = 'Courier New'
+          Font.Pitch = fpFixed
+          Font.Quality = fqDraft
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label3: TLabel
+          Left = 10
+          Height = 15
+          Top = 35
+          Width = 61
+          Caption = 'Цвет фона:'
+          ParentColor = False
+        end
+        object Button_SetNumColor: TButton
+          Left = 108
+          Height = 20
+          Top = 32
+          Width = 67
+          Caption = 'Задать'
+          OnClick = Button_SetNumColorClick
+          TabOrder = 1
+        end
+        object Label4: TLabel
+          Left = 10
+          Height = 15
+          Top = 67
+          Width = 87
+          Caption = 'Цвет символов:'
+          ParentColor = False
+        end
+        object Button_SetNumFont: TButton
+          Left = 108
+          Height = 20
+          Top = 64
+          Width = 67
+          Caption = 'Задать'
+          OnClick = Button_SetNumFontClick
+          TabOrder = 2
+        end
+        object Editor_Num_Image: TImage
+          Tag = 10
+          Left = 192
+          Height = 50
+          Top = 32
+          Width = 95
+        end
+        object Label5: TLabel
+          Left = 10
+          Height = 15
+          Top = 96
+          Width = 124
+          Caption = 'Шаг нумерации строк:'
+          ParentColor = False
+        end
+        object Label6: TLabel
+          Left = 168
+          Height = 17
+          Top = 96
+          Width = 9
+          Caption = '5'
+          Font.CharSet = RUSSIAN_CHARSET
+          Font.Color = clBlack
+          Font.Height = -15
+          Font.Name = 'Courier New'
+          Font.Pitch = fpFixed
+          Font.Quality = fqDraft
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object Editor_Num_Step: TTrackBar
+          Tag = 1
+          Left = 189
+          Height = 25
+          Top = 92
+          Width = 98
+          Min = 1
+          OnChange = Editor_Num_StepChange
+          Position = 5
+          TabOrder = 3
+        end
+      end
+      object GroupBox2: TGroupBox
+        Left = 304
+        Height = 140
+        Top = 4
+        Width = 296
+        Caption = 'Текст в редакторе'
+        ClientHeight = 120
+        ClientWidth = 292
+        TabOrder = 1
+        object Editor_Text_Image: TImage
+          Tag = 10
+          Left = 192
+          Height = 70
+          Top = 1
+          Width = 95
+        end
+        object Label7: TLabel
+          Left = 10
+          Height = 15
+          Top = 4
+          Width = 61
+          Caption = 'Цвет фона:'
+          ParentColor = False
+        end
+        object Button1: TButton
+          Left = 102
+          Height = 20
+          Top = 1
+          Width = 67
+          Caption = 'Задать'
+          OnClick = Button1Click
+          TabOrder = 0
+        end
+        object Label8: TLabel
+          Left = 10
+          Height = 15
+          Top = 30
+          Width = 42
+          Caption = 'Шрифт:'
+          ParentColor = False
+        end
+        object Button2: TButton
+          Left = 102
+          Height = 22
+          Top = 25
+          Width = 67
+          Caption = 'Задать'
+          OnClick = Button2Click
+          TabOrder = 1
+        end
+        object Label11: TLabel
+          Left = 10
+          Height = 15
+          Top = 53
+          Width = 77
+          Caption = 'Цвет курсора:'
+          ParentColor = False
+        end
+        object Button5: TButton
+          Left = 102
+          Height = 21
+          Top = 50
+          Width = 67
+          Caption = 'Задать'
+          OnClick = Button5Click
+          TabOrder = 2
+        end
+        object Editor_Cursor_Image: TImage
+          Tag = 10
+          Left = 172
+          Height = 21
+          Top = 50
+          Width = 16
+        end
+      end
+      object GroupBox3: TGroupBox
+        Left = 0
+        Height = 80
+        Top = 152
+        Width = 296
+        Caption = 'Панель скролинга'
+        ClientHeight = 60
+        ClientWidth = 292
+        TabOrder = 2
+        object Label9: TLabel
+          Left = 10
+          Height = 15
+          Top = 8
+          Width = 61
+          Caption = 'Цвет фона:'
+          ParentColor = False
+        end
+        object Label10: TLabel
+          Left = 10
+          Height = 15
+          Top = 35
+          Width = 87
+          Caption = 'Цвет символов:'
+          ParentColor = False
+        end
+        object Button3: TButton
+          Left = 108
+          Height = 21
+          Top = 6
+          Width = 67
+          Caption = 'Задать'
+          OnClick = Button3Click
+          TabOrder = 0
+        end
+        object Button4: TButton
+          Left = 108
+          Height = 21
+          Top = 33
+          Width = 67
+          Caption = 'Задать'
+          OnClick = Button4Click
+          TabOrder = 1
+        end
+        object Editor_Scr_Image: TImage
+          Tag = 10
+          Left = 192
+          Height = 53
+          Top = 1
+          Width = 95
+        end
+      end
+      object GroupBox4: TGroupBox
+        Left = 304
+        Height = 80
+        Top = 152
+        Width = 297
+        Caption = 'Обзор вокруг курсора'
+        ClientHeight = 60
+        ClientWidth = 293
+        TabOrder = 3
+        object Label12: TLabel
+          Left = 6
+          Height = 15
+          Top = 8
+          Width = 92
+          Caption = 'По горизонтали:'
+          ParentColor = False
+        end
+        object Label13: TLabel
+          Left = 8
+          Height = 15
+          Top = 35
+          Width = 79
+          Caption = 'По вертикали:'
+          ParentColor = False
+        end
+        object Label14: TLabel
+          Left = 107
+          Height = 17
+          Top = 8
+          Width = 9
+          Caption = '5'
+          Font.CharSet = RUSSIAN_CHARSET
+          Font.Color = clBlack
+          Font.Height = -15
+          Font.Name = 'Courier New'
+          Font.Pitch = fpFixed
+          Font.Quality = fqDraft
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label15: TLabel
+          Left = 107
+          Height = 17
+          Top = 35
+          Width = 9
+          Caption = '5'
+          Font.CharSet = RUSSIAN_CHARSET
+          Font.Color = clBlack
+          Font.Height = -15
+          Font.Name = 'Courier New'
+          Font.Pitch = fpFixed
+          Font.Quality = fqDraft
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object CursorHorView: TTrackBar
+          Tag = 1
+          Left = 174
+          Height = 25
+          Top = 6
+          Width = 111
+          OnChange = CursorHorViewChange
+          Position = 5
+          TabOrder = 0
+        end
+        object CursorVertView: TTrackBar
+          Tag = 1
+          Left = 174
+          Height = 25
+          Top = 34
+          Width = 111
+          OnChange = CursorVertViewChange
+          Position = 5
+          TabOrder = 1
+        end
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Подсветка кода'
+    end
+  end
+  object Button6: TButton
+    Left = 531
+    Height = 25
+    Top = 284
+    Width = 84
+    Anchors = [akRight, akBottom]
+    Caption = 'Закрыть'
+    TabOrder = 1
+  end
+  object ColorDialog1: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    left = 232
+    top = 88
+  end
+  object FontDialog1: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    left = 232
+    top = 200
+  end
+end

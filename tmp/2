@@ -1,0 +1,20 @@
+[MODULE]
+caption=Имя модуля
+group=MCU
+
+[DESC]
+Описание модуля
+
+[ACTIONS]
+act0=Установить
+link0=ADD
+
+[ADD]
+step0=имя секции команды для исполнения
+step1=test
+
+[test]
+oper=DIR_MAKE
+file=
+
+

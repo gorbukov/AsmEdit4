@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="60">
+      <Unit0>
+        <Filename Value="AsmEdit.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainUnit"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="2904"/>
+        <CursorPos X="20" Y="2921"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="Text\sourcetextunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SourceTextUnit"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="344"/>
+        <CursorPos X="24" Y="354"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Text\sourcelineunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SourceLineUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="64" Y="30"/>
+        <UsageCount Value="200"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Editor\editorunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EditorUnit"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="703"/>
+        <CursorPos X="3" Y="738"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="Text\CharsDecoder\charsdecoderunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CharsDecoderUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="24" Y="16"/>
+        <UsageCount Value="200"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Text\CharsDecoder\selectcharsetunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="200"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Text\CharsDecoder\selectcharsetunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SelectCharSetForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SelectCharSetUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="44" Y="92"/>
+        <UsageCount Value="200"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Text\tokensunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TokensUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="7" Y="53"/>
+        <UsageCount Value="200"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Editor\editorkeyunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EditorKeyUnit"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="650"/>
+        <CursorPos X="64" Y="661"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="formvalueinitunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FormValueInitUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="56"/>
+        <CursorPos X="11" Y="74"/>
+        <UsageCount Value="204"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="Editor\editorconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EditorConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="EditorConfigUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="12" Y="9"/>
+        <UsageCount Value="201"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="configunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ConfigUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="38"/>
+        <CursorPos X="20" Y="13"/>
+        <UsageCount Value="200"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="Project\projectunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ProjectUnit"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="623"/>
+        <CursorPos X="3" Y="628"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="Editor\editorfilesunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EditorFilesUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="165"/>
+        <CursorPos X="3" Y="160"/>
+        <UsageCount Value="201"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="Project\projectconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ProjectConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ProjectConfigUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="43" Y="99"/>
+        <UsageCount Value="211"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="Project\mcuselectunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MCUSelectForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MCUSelectUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="20" Y="9"/>
+        <UsageCount Value="201"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="TextParser\textparserunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TextParserUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="47" Y="32"/>
+        <UsageCount Value="200"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="TextParser\Asm\asmtextparserunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AsmTextParserUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="197"/>
+        <CursorPos X="24" Y="226"/>
+        <UsageCount Value="200"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="TextParser\dasmtextparserunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="211"/>
+        <CursorPos X="38" Y="228"/>
+        <UsageCount Value="200"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="TextParser\Asm\symbolsunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SymbolsUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="141"/>
+        <CursorPos X="32" Y="144"/>
+        <UsageCount Value="202"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="TextParser\Asm\asmtextrulesunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AsmTextRulesUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="911"/>
+        <CursorPos X="3" Y="936"/>
+        <UsageCount Value="236"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="Editor\editorconfighlunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EditorConfigHLForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="EditorConfigHLUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="405"/>
+        <CursorPos X="11" Y="500"/>
+        <UsageCount Value="211"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="Text\SourceFunc\asmfuncunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AsmFuncUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1369"/>
+        <CursorPos X="28" Y="1395"/>
+        <UsageCount Value="207"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="Text\CharsDecoder\setcharsetunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="206"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="Text\CharsDecoder\setcharsetunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SetCharSetForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SetCharSetUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="18" Y="15"/>
+        <UsageCount Value="206"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="Editor\undoredounit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UndoRedoUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="88"/>
+        <CursorPos X="3" Y="90"/>
+        <UsageCount Value="211"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="Text\SourceFunc\descunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="236"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="Text\SourceFunc\descunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DescForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="DescUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="18"/>
+        <CursorPos X="15" Y="48"/>
+        <UsageCount Value="236"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="Text\SourceFunc\historyfilesunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HistoryFilesUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="61"/>
+        <CursorPos X="35" Y="66"/>
+        <UsageCount Value="229"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="Text\SourceFunc\editvalueunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="251"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="Text\SourceFunc\editvalueunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EditValueForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="EditValueUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="57"/>
+        <CursorPos X="23" Y="61"/>
+        <UsageCount Value="251"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="aboutunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AboutUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos X="11" Y="57"/>
+        <UsageCount Value="202"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SymbListForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SymbListunit"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="378"/>
+        <CursorPos Y="385"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="TextParser\ldtextparserunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LDTextParserUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="666"/>
+        <CursorPos X="3" Y="683"/>
+        <UsageCount Value="207"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="Module\moduleaddunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="202"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="Module\moduleaddunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ModuleAddForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ModuleAddUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos X="32" Y="158"/>
+        <UsageCount Value="202"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="Module\modulesunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="202"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="Module\modulesunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ModulesForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ModulesUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="144"/>
+        <CursorPos X="24" Y="129"/>
+        <UsageCount Value="202"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="Module\scriptexecunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ScriptExecUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="99"/>
+        <CursorPos X="53" Y="112"/>
+        <UsageCount Value="202"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="Compile\compileunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CompileUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="102"/>
+        <CursorPos X="31" Y="167"/>
+        <UsageCount Value="201"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="Compile\gnuconfunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="GNUConfForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GNUConfUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="40" Y="109"/>
+        <UsageCount Value="200"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="Project\errmessnavigateunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ErrMessNavigateUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="31" Y="68"/>
+        <UsageCount Value="287"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="getstrunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="GetStrForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GetStrUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="14"/>
+        <UsageCount Value="200"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="ST-Link\stlinkunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="STLinkUnit"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="56"/>
+        <CursorPos X="3" Y="65"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="ST-Link\stlinkconfunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="STLinkConfForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="STLinkConfUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="76" Y="8"/>
+        <UsageCount Value="200"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="Text\codeformatconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CodeFormatConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="CodeFormatConfigUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="49"/>
+        <CursorPos X="45" Y="54"/>
+        <UsageCount Value="204"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="Module\addscriptcomunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AddScriptComForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AddScriptComUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="110"/>
+        <CursorPos X="58" Y="154"/>
+        <UsageCount Value="200"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="Debug\debugunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DebugForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="DebugUnit"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="355"/>
+        <CursorPos X="21" Y="376"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="Debug\debugstructunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DebugStructUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22" Y="12"/>
+        <UsageCount Value="205"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="Debug\openocdconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="OpenOCDConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="OpenOCDConfigUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="17" Y="27"/>
+        <UsageCount Value="215"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="Debug\mcuinfounit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MCUInfoUnit"/>
+        <EditorIndex Value="10"/>
+        <UsageCount Value="209"/>
+        <Loaded Value="True"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="Debug\debugmemunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DebugMemUnit"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="16"/>
+        <CursorPos X="8" Y="44"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="infounit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="InfoForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="InfoUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="48" Y="28"/>
+        <UsageCount Value="204"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="Debug\watchpointunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="WatchPointUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="11"/>
+        <UsageCount Value="240"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="Text\SourceFunc\importconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ImportConfigUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="33" Y="42"/>
+        <UsageCount Value="195"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="Text\SourceFunc\fontimportconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FontImportConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FontImportConfigUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="21" Y="33"/>
+        <UsageCount Value="139"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="TextParser\expressioncalcunit.pas"/>
+        <UnitName Value="ExpressionCalcUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="39" Y="17"/>
+        <UsageCount Value="26"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="C:\lazarus\fpc\3.2.0\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="951"/>
+        <CursorPos X="27" Y="966"/>
+        <UsageCount Value="22"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="C:\lazarus\components\lazutils\lazutf8.pas"/>
+        <UnitName Value="LazUTF8"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="1150"/>
+        <CursorPos X="3" Y="1154"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+      </Unit59>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="2930" Column="25" TopLine="2904"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="853" Column="15" TopLine="846"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Editor\editorunit.pas"/>
+        <Caret Line="98" Column="17" TopLine="82"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Editor\editorunit.pas"/>
+        <Caret Line="229" Column="16" TopLine="207"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Editor\editorkeyunit.pas"/>
+        <Caret Line="38" Column="11" TopLine="20"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="853" Column="15" TopLine="846"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="2929" Column="22" TopLine="2910"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Editor\editorunit.pas"/>
+        <Caret Line="113" Column="17" TopLine="97"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="2936" TopLine="2910"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="2926" Column="27" TopLine="2908"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="1511" Column="26" TopLine="1495"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="80" Column="49" TopLine="63"/>
+      </Position12>
+      <Position13>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="303" Column="7" TopLine="285"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="151" Column="8" TopLine="134"/>
+      </Position14>
+      <Position15>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="148" Column="8" TopLine="133"/>
+      </Position15>
+      <Position16>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="152" Column="61" TopLine="134"/>
+      </Position16>
+      <Position17>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="347" Column="17" TopLine="329"/>
+      </Position17>
+      <Position18>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="385" Column="36" TopLine="364"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="80" Column="15" TopLine="63"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="306" Column="15" TopLine="296"/>
+      </Position20>
+      <Position21>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="392" TopLine="364"/>
+      </Position21>
+      <Position22>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="437" Column="47" TopLine="411"/>
+      </Position22>
+      <Position23>
+        <Filename Value="Project\projectunit.pas"/>
+        <Caret Line="106" Column="19" TopLine="91"/>
+      </Position23>
+      <Position24>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="400" Column="36" TopLine="368"/>
+      </Position24>
+      <Position25>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="80" Column="15" TopLine="63"/>
+      </Position25>
+      <Position26>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <Caret Line="395" Column="31" TopLine="375"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="386" Column="12" TopLine="386"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="2921" TopLine="2904"/>
+      </Position28>
+      <Position29>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="2922" TopLine="2905"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="2921" TopLine="2904"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1" ActiveMode="default">
+        <Mode0 Name="default"/>
+      </Modes>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

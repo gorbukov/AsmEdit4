@@ -1,0 +1,117 @@
+object STLinkConfForm: TSTLinkConfForm
+  Left = 351
+  Height = 148
+  Top = 135
+  Width = 607
+  BorderStyle = bsDialog
+  Caption = 'STLinkConfForm'
+  ClientHeight = 148
+  ClientWidth = 607
+  Position = poMainFormCenter
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 7
+    Height = 15
+    Top = 7
+    Width = 120
+    Caption = 'Файл ST-LINK_CLI.exe:'
+    ParentColor = False
+  end
+  object STLinkEdit: TEdit
+    Tag = 2
+    Left = 8
+    Height = 23
+    Top = 27
+    Width = 536
+    TabOrder = 2
+    Text = 'C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility\ST-LINK_CLI.exe'
+  end
+  object Button1: TButton
+    Left = 547
+    Height = 23
+    Top = 27
+    Width = 55
+    Caption = 'Задать'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 527
+    Height = 25
+    Top = 116
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Принять'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 7
+    Height = 25
+    Top = 116
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Отмена'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 290
+    Height = 38
+    Top = 64
+    Width = 152
+    AutoFill = True
+    Caption = 'Подключение:'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 18
+    ClientWidth = 148
+    TabOrder = 4
+    object SWDRadioButton: TRadioButton
+      Tag = 1
+      Left = 8
+      Height = 19
+      Top = -3
+      Width = 45
+      Anchors = [akLeft]
+      Caption = 'SWD'
+      Checked = True
+      TabOrder = 0
+      TabStop = True
+    end
+    object JTAGRadioButton: TRadioButton
+      Tag = 1
+      Left = 96
+      Height = 19
+      Top = -3
+      Width = 46
+      Anchors = [akLeft]
+      Caption = 'JTAG'
+      TabOrder = 1
+    end
+  end
+  object ConnectTypeCheckBox: TCheckBox
+    Tag = 1
+    Left = 101
+    Height = 19
+    Top = 76
+    Width = 186
+    Caption = 'Указать способ подключения:'
+    Checked = True
+    State = cbChecked
+    TabOrder = 5
+  end
+  object Bevel1: TBevel
+    Left = 7
+    Height = 8
+    Top = 111
+    Width = 594
+    Anchors = [akLeft, akBottom]
+    Shape = bsTopLine
+  end
+end

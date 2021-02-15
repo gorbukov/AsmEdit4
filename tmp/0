@@ -1,0 +1,12 @@
+@.ITEM@.CONFIG.@.CONFIGkjhkj    @.ITEM@.ITEM
+
+  .EQU
+.INCLUDE
+    @.CONFIG
+@.ITEM@.CONFIG@.CHARSET
+ @.ITEM
+
+@.ITEM
+
+
+@.ITEM

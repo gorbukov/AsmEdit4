@@ -1,0 +1,37 @@
+object GetStrForm: TGetStrForm
+  Left = 329
+  Height = 63
+  Top = 129
+  Width = 329
+  BorderStyle = bsDialog
+  Caption = 'GetStrForm'
+  ClientHeight = 63
+  ClientWidth = 329
+  Position = poMainFormCenter
+  LCLVersion = '2.0.10.0'
+  object StrEdit: TEdit
+    Left = 8
+    Height = 23
+    Top = 5
+    Width = 315
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 32
+    Width = 75
+    Caption = 'Отмена'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 248
+    Height = 25
+    Top = 32
+    Width = 75
+    Caption = 'Принять'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+end

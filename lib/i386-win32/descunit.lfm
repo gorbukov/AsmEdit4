@@ -1,0 +1,32 @@
+object DescForm: TDescForm
+  Left = 310
+  Height = 302
+  Top = 130
+  Width = 572
+  BorderStyle = bsSizeToolWin
+  Caption = 'DescForm'
+  ClientHeight = 302
+  ClientWidth = 572
+  Font.CharSet = RUSSIAN_CHARSET
+  Font.Color = clBlack
+  Font.Height = -15
+  Font.Name = 'Courier New'
+  Font.Pitch = fpFixed
+  Font.Quality = fqDraft
+  KeyPreview = True
+  OnKeyUp = FormKeyUp
+  Position = poMainFormCenter
+  LCLVersion = '2.0.8.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 302
+    Top = 0
+    Width = 572
+    Align = alClient
+    Color = clInactiveBorder
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+end

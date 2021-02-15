@@ -1,0 +1,29 @@
+object InfoForm: TInfoForm
+  Left = 374
+  Height = 482
+  Top = 128
+  Width = 672
+  Caption = 'InfoForm'
+  ClientHeight = 482
+  ClientWidth = 672
+  Position = poMainFormCenter
+  LCLVersion = '2.0.10.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 482
+    Top = 0
+    Width = 672
+    Align = alClient
+    Color = clSkyBlue
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+end

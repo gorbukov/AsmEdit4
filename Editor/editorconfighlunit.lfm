@@ -1,0 +1,813 @@
+object EditorConfigHLForm: TEditorConfigHLForm
+  Left = 1198
+  Height = 662
+  Top = 6
+  Width = 640
+  BorderStyle = bsToolWindow
+  Caption = 'Настройка подсветки'
+  ClientHeight = 662
+  ClientWidth = 640
+  Position = poMainFormCenter
+  LCLVersion = '2.0.10.0'
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 56
+    Top = 8
+    Width = 624
+    Caption = 'Комментарии'
+    ClientHeight = 36
+    ClientWidth = 620
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 77
+      Caption = 'Цвет шрифта:'
+      ParentColor = False
+    end
+    object RemFontColorBox: TColorBox
+      Tag = 1
+      Left = 89
+      Height = 24
+      Top = 2
+      Width = 110
+      Selected = clGreen
+      ItemHeight = 16
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      Left = 208
+      Height = 15
+      Top = 6
+      Width = 84
+      Caption = 'Стиль шрифта:'
+      ParentColor = False
+    end
+    object RemFontStyleBox: TComboBox
+      Tag = 1
+      Left = 298
+      Height = 23
+      Top = 2
+      Width = 128
+      ItemHeight = 15
+      ItemIndex = 3
+      Items.Strings = (
+        'Обычный'
+        'Жирный'
+        'Курсив'
+        'Жирный + Курсив'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'Жирный + Курсив'
+    end
+    object RemBkgColorCheck: TCheckBox
+      Tag = 1
+      Left = 434
+      Height = 19
+      Top = 6
+      Width = 81
+      Caption = 'Цвет фона:'
+      TabOrder = 2
+    end
+    object RemBkgColorBox: TColorBox
+      Tag = 1
+      Left = 519
+      Height = 24
+      Top = 2
+      Width = 96
+      ItemHeight = 16
+      TabOrder = 3
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 8
+    Height = 56
+    Top = 460
+    Width = 624
+    Caption = 'Команды ассемблера'
+    ClientHeight = 36
+    ClientWidth = 620
+    TabOrder = 1
+    object Label3: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 77
+      Caption = 'Цвет шрифта:'
+      ParentColor = False
+    end
+    object AsmcomFontColorBox: TColorBox
+      Tag = 1
+      Left = 89
+      Height = 22
+      Top = 2
+      Width = 110
+      Selected = clGreen
+      ItemHeight = 16
+      TabOrder = 0
+    end
+    object Label4: TLabel
+      Left = 208
+      Height = 15
+      Top = 6
+      Width = 84
+      Caption = 'Стиль шрифта:'
+      ParentColor = False
+    end
+    object AsmcomFontStyleBox: TComboBox
+      Tag = 1
+      Left = 298
+      Height = 23
+      Top = 2
+      Width = 128
+      ItemHeight = 15
+      ItemIndex = 3
+      Items.Strings = (
+        'Обычный'
+        'Жирный'
+        'Курсив'
+        'Жирный + Курсив'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'Жирный + Курсив'
+    end
+    object AsmcomBkgColorCheck: TCheckBox
+      Tag = 1
+      Left = 434
+      Height = 19
+      Top = 6
+      Width = 81
+      Caption = 'Цвет фона:'
+      TabOrder = 2
+    end
+    object AsmcomBkgColorBox: TColorBox
+      Tag = 1
+      Left = 519
+      Height = 22
+      Top = 2
+      Width = 96
+      ItemHeight = 16
+      TabOrder = 3
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 8
+    Height = 56
+    Top = 121
+    Width = 624
+    Caption = 'Директивы компилятора'
+    ClientHeight = 36
+    ClientWidth = 620
+    TabOrder = 2
+    object Label5: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 77
+      Caption = 'Цвет шрифта:'
+      ParentColor = False
+    end
+    object AsmdirFontColorBox: TColorBox
+      Tag = 1
+      Left = 89
+      Height = 22
+      Top = 2
+      Width = 110
+      Selected = clGreen
+      ItemHeight = 16
+      TabOrder = 0
+    end
+    object Label6: TLabel
+      Left = 208
+      Height = 15
+      Top = 6
+      Width = 84
+      Caption = 'Стиль шрифта:'
+      ParentColor = False
+    end
+    object AsmdirFontStyleBox: TComboBox
+      Tag = 1
+      Left = 298
+      Height = 23
+      Top = 2
+      Width = 128
+      ItemHeight = 15
+      ItemIndex = 3
+      Items.Strings = (
+        'Обычный'
+        'Жирный'
+        'Курсив'
+        'Жирный + Курсив'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'Жирный + Курсив'
+    end
+    object AsmdirBkgColorCheck: TCheckBox
+      Tag = 1
+      Left = 434
+      Height = 19
+      Top = 6
+      Width = 81
+      Caption = 'Цвет фона:'
+      TabOrder = 2
+    end
+    object AsmdirBkgColorBox: TColorBox
+      Tag = 1
+      Left = 519
+      Height = 22
+      Top = 2
+      Width = 96
+      ItemHeight = 16
+      TabOrder = 3
+    end
+  end
+  object GroupBox4: TGroupBox
+    Left = 8
+    Height = 56
+    Top = 177
+    Width = 624
+    Caption = 'Параметры директив'
+    ClientHeight = 36
+    ClientWidth = 620
+    TabOrder = 3
+    object Label7: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 77
+      Caption = 'Цвет шрифта:'
+      ParentColor = False
+    end
+    object ParamFontColorBox: TColorBox
+      Tag = 1
+      Left = 89
+      Height = 22
+      Top = 2
+      Width = 110
+      Selected = clGreen
+      ItemHeight = 16
+      TabOrder = 0
+    end
+    object Label8: TLabel
+      Left = 208
+      Height = 15
+      Top = 6
+      Width = 84
+      Caption = 'Стиль шрифта:'
+      ParentColor = False
+    end
+    object ParamFontStyleBox: TComboBox
+      Tag = 1
+      Left = 298
+      Height = 23
+      Top = 2
+      Width = 128
+      ItemHeight = 15
+      ItemIndex = 3
+      Items.Strings = (
+        'Обычный'
+        'Жирный'
+        'Курсив'
+        'Жирный + Курсив'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'Жирный + Курсив'
+    end
+    object ParamBkgColorCheck: TCheckBox
+      Tag = 1
+      Left = 434
+      Height = 19
+      Top = 6
+      Width = 81
+      Caption = 'Цвет фона:'
+      TabOrder = 2
+    end
+    object ParamBkgColorBox: TColorBox
+      Tag = 1
+      Left = 519
+      Height = 22
+      Top = 2
+      Width = 96
+      ItemHeight = 16
+      TabOrder = 3
+    end
+  end
+  object GroupBox5: TGroupBox
+    Left = 8
+    Height = 56
+    Top = 234
+    Width = 624
+    Caption = 'Строки в кавычках'
+    ClientHeight = 36
+    ClientWidth = 620
+    TabOrder = 4
+    object Label9: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 77
+      Caption = 'Цвет шрифта:'
+      ParentColor = False
+    end
+    object StringFontColorBox: TColorBox
+      Tag = 1
+      Left = 89
+      Height = 22
+      Top = 2
+      Width = 110
+      Selected = clGreen
+      ItemHeight = 16
+      TabOrder = 0
+    end
+    object Label10: TLabel
+      Left = 208
+      Height = 15
+      Top = 6
+      Width = 84
+      Caption = 'Стиль шрифта:'
+      ParentColor = False
+    end
+    object StringFontStyleBox: TComboBox
+      Tag = 1
+      Left = 298
+      Height = 23
+      Top = 2
+      Width = 128
+      ItemHeight = 15
+      ItemIndex = 3
+      Items.Strings = (
+        'Обычный'
+        'Жирный'
+        'Курсив'
+        'Жирный + Курсив'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'Жирный + Курсив'
+    end
+    object StringBkgColorCheck: TCheckBox
+      Tag = 1
+      Left = 434
+      Height = 19
+      Top = 6
+      Width = 81
+      Caption = 'Цвет фона:'
+      TabOrder = 2
+    end
+    object StringBkgColorBox: TColorBox
+      Tag = 1
+      Left = 519
+      Height = 22
+      Top = 2
+      Width = 96
+      ItemHeight = 16
+      TabOrder = 3
+    end
+  end
+  object GroupBox6: TGroupBox
+    Left = 8
+    Height = 56
+    Top = 290
+    Width = 624
+    Caption = 'Разделители, скобки, арифметические и логические знаки'
+    ClientHeight = 36
+    ClientWidth = 620
+    TabOrder = 5
+    object Label11: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 77
+      Caption = 'Цвет шрифта:'
+      ParentColor = False
+    end
+    object DelimFontColorBox: TColorBox
+      Tag = 1
+      Left = 89
+      Height = 22
+      Top = 2
+      Width = 110
+      Selected = clGreen
+      ItemHeight = 16
+      TabOrder = 0
+    end
+    object Label12: TLabel
+      Left = 208
+      Height = 15
+      Top = 6
+      Width = 84
+      Caption = 'Стиль шрифта:'
+      ParentColor = False
+    end
+    object DelimFontStyleBox: TComboBox
+      Tag = 1
+      Left = 298
+      Height = 23
+      Top = 2
+      Width = 128
+      ItemHeight = 15
+      ItemIndex = 3
+      Items.Strings = (
+        'Обычный'
+        'Жирный'
+        'Курсив'
+        'Жирный + Курсив'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'Жирный + Курсив'
+    end
+    object DelimBkgColorCheck: TCheckBox
+      Tag = 1
+      Left = 434
+      Height = 19
+      Top = 6
+      Width = 81
+      Caption = 'Цвет фона:'
+      TabOrder = 2
+    end
+    object DelimBkgColorBox: TColorBox
+      Tag = 1
+      Left = 519
+      Height = 22
+      Top = 2
+      Width = 96
+      ItemHeight = 16
+      TabOrder = 3
+    end
+  end
+  object GroupBox7: TGroupBox
+    Left = 8
+    Height = 56
+    Top = 347
+    Width = 624
+    Caption = 'Ошибки'
+    ClientHeight = 36
+    ClientWidth = 620
+    TabOrder = 6
+    object Label13: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 77
+      Caption = 'Цвет шрифта:'
+      ParentColor = False
+    end
+    object ErrFontColorBox: TColorBox
+      Tag = 1
+      Left = 89
+      Height = 22
+      Top = 2
+      Width = 110
+      Selected = clGreen
+      ItemHeight = 16
+      TabOrder = 0
+    end
+    object Label14: TLabel
+      Left = 208
+      Height = 15
+      Top = 6
+      Width = 84
+      Caption = 'Стиль шрифта:'
+      ParentColor = False
+    end
+    object ErrFontStyleBox: TComboBox
+      Tag = 1
+      Left = 298
+      Height = 23
+      Top = 2
+      Width = 128
+      ItemHeight = 15
+      ItemIndex = 3
+      Items.Strings = (
+        'Обычный'
+        'Жирный'
+        'Курсив'
+        'Жирный + Курсив'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'Жирный + Курсив'
+    end
+    object ErrBkgColorCheck: TCheckBox
+      Tag = 1
+      Left = 434
+      Height = 19
+      Top = 6
+      Width = 81
+      Caption = 'Цвет фона:'
+      TabOrder = 2
+    end
+    object ErrBkgColorBox: TColorBox
+      Tag = 1
+      Left = 519
+      Height = 22
+      Top = 2
+      Width = 96
+      ItemHeight = 16
+      TabOrder = 3
+    end
+  end
+  object GroupBox8: TGroupBox
+    Left = 8
+    Height = 56
+    Top = 403
+    Width = 624
+    Caption = 'Символы и метки'
+    ClientHeight = 36
+    ClientWidth = 620
+    TabOrder = 7
+    object Label15: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 77
+      Caption = 'Цвет шрифта:'
+      ParentColor = False
+    end
+    object SymbFontColorBox: TColorBox
+      Tag = 1
+      Left = 89
+      Height = 22
+      Top = 2
+      Width = 110
+      Selected = clGreen
+      ItemHeight = 16
+      TabOrder = 0
+    end
+    object Label16: TLabel
+      Left = 208
+      Height = 15
+      Top = 6
+      Width = 84
+      Caption = 'Стиль шрифта:'
+      ParentColor = False
+    end
+    object SymbFontStyleBox: TComboBox
+      Tag = 1
+      Left = 298
+      Height = 23
+      Top = 2
+      Width = 128
+      ItemHeight = 15
+      ItemIndex = 3
+      Items.Strings = (
+        'Обычный'
+        'Жирный'
+        'Курсив'
+        'Жирный + Курсив'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'Жирный + Курсив'
+    end
+    object SymbBkgColorCheck: TCheckBox
+      Tag = 1
+      Left = 434
+      Height = 19
+      Top = 6
+      Width = 81
+      Caption = 'Цвет фона:'
+      TabOrder = 2
+    end
+    object SymbBkgColorBox: TColorBox
+      Tag = 1
+      Left = 519
+      Height = 22
+      Top = 2
+      Width = 96
+      ItemHeight = 16
+      TabOrder = 3
+    end
+  end
+  object GroupBox9: TGroupBox
+    Left = 8
+    Height = 56
+    Top = 64
+    Width = 624
+    Caption = 'Директивы редактора'
+    ClientHeight = 36
+    ClientWidth = 620
+    TabOrder = 8
+    object Label17: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 77
+      Caption = 'Цвет шрифта:'
+      ParentColor = False
+    end
+    object EddirFontColorBox: TColorBox
+      Tag = 1
+      Left = 89
+      Height = 22
+      Top = 2
+      Width = 110
+      Selected = clGreen
+      ItemHeight = 16
+      TabOrder = 0
+    end
+    object Label18: TLabel
+      Left = 208
+      Height = 15
+      Top = 6
+      Width = 84
+      Caption = 'Стиль шрифта:'
+      ParentColor = False
+    end
+    object EddirFontStyleBox: TComboBox
+      Tag = 1
+      Left = 298
+      Height = 23
+      Top = 2
+      Width = 128
+      ItemHeight = 15
+      ItemIndex = 3
+      Items.Strings = (
+        'Обычный'
+        'Жирный'
+        'Курсив'
+        'Жирный + Курсив'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'Жирный + Курсив'
+    end
+    object EddirBkgColorCheck: TCheckBox
+      Tag = 1
+      Left = 434
+      Height = 19
+      Top = 6
+      Width = 81
+      Caption = 'Цвет фона:'
+      TabOrder = 2
+    end
+    object EddirBkgColorBox: TColorBox
+      Tag = 1
+      Left = 519
+      Height = 22
+      Top = 2
+      Width = 96
+      ItemHeight = 16
+      TabOrder = 3
+    end
+  end
+  object GroupBox10: TGroupBox
+    Left = 8
+    Height = 56
+    Top = 516
+    Width = 624
+    Caption = 'Регистры'
+    ClientHeight = 36
+    ClientWidth = 620
+    TabOrder = 9
+    object Label19: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 77
+      Caption = 'Цвет шрифта:'
+      ParentColor = False
+    end
+    object RegFontColorBox: TColorBox
+      Tag = 1
+      Left = 89
+      Height = 22
+      Top = 2
+      Width = 110
+      Selected = clGreen
+      ItemHeight = 16
+      TabOrder = 0
+    end
+    object Label20: TLabel
+      Left = 208
+      Height = 15
+      Top = 6
+      Width = 84
+      Caption = 'Стиль шрифта:'
+      ParentColor = False
+    end
+    object RegFontStyleBox: TComboBox
+      Tag = 1
+      Left = 298
+      Height = 23
+      Top = 2
+      Width = 128
+      ItemHeight = 15
+      ItemIndex = 3
+      Items.Strings = (
+        'Обычный'
+        'Жирный'
+        'Курсив'
+        'Жирный + Курсив'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'Жирный + Курсив'
+    end
+    object RegBkgColorCheck: TCheckBox
+      Tag = 1
+      Left = 434
+      Height = 19
+      Top = 6
+      Width = 81
+      Caption = 'Цвет фона:'
+      TabOrder = 2
+    end
+    object RegBkgColorBox: TColorBox
+      Tag = 1
+      Left = 519
+      Height = 22
+      Top = 2
+      Width = 96
+      ItemHeight = 16
+      TabOrder = 3
+    end
+  end
+  object GroupBox11: TGroupBox
+    Left = 8
+    Height = 56
+    Top = 573
+    Width = 624
+    Caption = 'Числа'
+    ClientHeight = 36
+    ClientWidth = 620
+    TabOrder = 10
+    object Label21: TLabel
+      Left = 6
+      Height = 15
+      Top = 6
+      Width = 77
+      Caption = 'Цвет шрифта:'
+      ParentColor = False
+    end
+    object NumFontColorBox: TColorBox
+      Tag = 1
+      Left = 89
+      Height = 22
+      Top = 2
+      Width = 110
+      Selected = clGreen
+      ItemHeight = 16
+      TabOrder = 0
+    end
+    object Label22: TLabel
+      Left = 208
+      Height = 15
+      Top = 6
+      Width = 84
+      Caption = 'Стиль шрифта:'
+      ParentColor = False
+    end
+    object NumFontStyleBox: TComboBox
+      Tag = 1
+      Left = 298
+      Height = 23
+      Top = 2
+      Width = 128
+      ItemHeight = 15
+      ItemIndex = 3
+      Items.Strings = (
+        'Обычный'
+        'Жирный'
+        'Курсив'
+        'Жирный + Курсив'
+      )
+      Style = csDropDownList
+      TabOrder = 1
+      Text = 'Жирный + Курсив'
+    end
+    object NumBkgColorCheck: TCheckBox
+      Tag = 1
+      Left = 434
+      Height = 19
+      Top = 6
+      Width = 81
+      Caption = 'Цвет фона:'
+      TabOrder = 2
+    end
+    object NumBkgColorBox: TColorBox
+      Tag = 1
+      Left = 519
+      Height = 22
+      Top = 2
+      Width = 96
+      ItemHeight = 16
+      TabOrder = 3
+    end
+  end
+  object Button1: TButton
+    Left = 526
+    Height = 25
+    Top = 632
+    Width = 106
+    Caption = 'Закрыть'
+    OnClick = Button1Click
+    TabOrder = 11
+  end
+end

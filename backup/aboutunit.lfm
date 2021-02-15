@@ -1,0 +1,168 @@
+object AboutForm: TAboutForm
+  Left = 417
+  Height = 273
+  Top = 128
+  Width = 325
+  BorderStyle = bsDialog
+  Caption = 'О программе'
+  ClientHeight = 273
+  ClientWidth = 325
+  OnCreate = FormCreate
+  Position = poMainFormCenter
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 82
+    Height = 18
+    Top = 17
+    Width = 160
+    Caption = 'Assembler Editor'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 98
+    Height = 15
+    Top = 40
+    Width = 170
+    Caption = 'версия 0.91 (для тестирования)'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 15
+    Top = 109
+    Width = 261
+    Caption = 'Редактор программ на языке GNU ассемблера '
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 76
+    Height = 15
+    Top = 158
+    Width = 36
+    Caption = 'Автор:'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 127
+    Height = 17
+    Top = 157
+    Width = 126
+    Caption = 'Горбуков В. В.'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 83
+    Height = 17
+    Top = 176
+    Width = 162
+    Caption = 'gorbukov@yandex.ru'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlue
+    Font.Height = -15
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label7Click
+  end
+  object Label8: TLabel
+    Left = 79
+    Height = 15
+    Top = 65
+    Width = 101
+    Caption = 'Дата компиляции:'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 64
+    Height = 15
+    Top = 128
+    Width = 204
+    Caption = 'для ARM микроконтроллеров STM32'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 126
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Закрыть'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label11: TLabel
+    Left = 39
+    Height = 17
+    Top = 196
+    Width = 252
+    Caption = 'https://vk.com/club200545792'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlue
+    Font.Height = -15
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label11Click
+  end
+  object Label12: TLabel
+    Left = 132
+    Height = 17
+    Top = 216
+    Width = 63
+    Caption = 'YouTube'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlue
+    Font.Height = -15
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label12Click
+  end
+  object Label6: TLabel
+    Left = 186
+    Height = 15
+    Top = 65
+    Width = 34
+    Caption = 'Label6'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 75
+    Height = 15
+    Top = 85
+    Width = 112
+    Caption = 'Дата конфигурации:'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 195
+    Height = 15
+    Top = 85
+    Width = 40
+    Caption = 'Label13'
+    ParentColor = False
+  end
+end

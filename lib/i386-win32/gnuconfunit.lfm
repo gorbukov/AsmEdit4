@@ -1,0 +1,252 @@
+object GNUConfForm: TGNUConfForm
+  Left = 382
+  Height = 222
+  Top = 146
+  Width = 556
+  Caption = 'Настройки компилятора проекта'
+  ClientHeight = 222
+  ClientWidth = 556
+  Position = poMainFormCenter
+  LCLVersion = '2.0.10.0'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 186
+    Top = 0
+    Width = 556
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'Файлы'
+      ClientHeight = 158
+      ClientWidth = 548
+      object AsFile: TLabeledEdit
+        Tag = 2
+        Left = 120
+        Height = 23
+        Top = 8
+        Width = 317
+        Anchors = [akTop, akLeft, akRight]
+        EditLabel.Height = 15
+        EditLabel.Width = 38
+        EditLabel.Caption = 'as.exe: '
+        EditLabel.ParentColor = False
+        LabelPosition = lpLeft
+        TabOrder = 0
+        Text = 'AsFile'
+      end
+      object LdFile: TLabeledEdit
+        Tag = 2
+        Left = 120
+        Height = 23
+        Top = 38
+        Width = 317
+        Anchors = [akTop, akLeft, akRight]
+        EditLabel.Height = 15
+        EditLabel.Width = 37
+        EditLabel.Caption = 'ld.exe: '
+        EditLabel.ParentColor = False
+        LabelPosition = lpLeft
+        TabOrder = 1
+        Text = 'LdFile'
+      end
+      object NmFile: TLabeledEdit
+        Tag = 2
+        Left = 120
+        Height = 23
+        Top = 68
+        Width = 317
+        Anchors = [akTop, akLeft, akRight]
+        EditLabel.Height = 15
+        EditLabel.Width = 47
+        EditLabel.Caption = 'Nm.exe: '
+        EditLabel.ParentColor = False
+        LabelPosition = lpLeft
+        TabOrder = 2
+        Text = 'NmFile'
+      end
+      object ObjDumpFile: TLabeledEdit
+        Tag = 2
+        Left = 120
+        Height = 23
+        Top = 97
+        Width = 317
+        Anchors = [akTop, akLeft, akRight]
+        EditLabel.Height = 15
+        EditLabel.Width = 79
+        EditLabel.Caption = 'ObjDump.exe: '
+        EditLabel.ParentColor = False
+        LabelPosition = lpLeft
+        TabOrder = 3
+        Text = 'ObjDumpFile'
+      end
+      object ObjCopyFile: TLabeledEdit
+        Tag = 2
+        Left = 120
+        Height = 23
+        Top = 128
+        Width = 317
+        Anchors = [akTop, akLeft, akRight]
+        EditLabel.Height = 15
+        EditLabel.Width = 74
+        EditLabel.Caption = 'ObjCopy.exe: '
+        EditLabel.ParentColor = False
+        LabelPosition = lpLeft
+        TabOrder = 4
+        Text = 'ObjCopyFile'
+      end
+      object Button2: TButton
+        Left = 445
+        Height = 23
+        Top = 8
+        Width = 96
+        Anchors = [akTop, akRight]
+        Caption = 'Задать'
+        OnClick = Button2Click
+        TabOrder = 5
+      end
+      object Button3: TButton
+        Left = 445
+        Height = 23
+        Top = 38
+        Width = 96
+        Anchors = [akTop, akRight]
+        Caption = 'Задать'
+        OnClick = Button3Click
+        TabOrder = 6
+      end
+      object Button4: TButton
+        Left = 445
+        Height = 23
+        Top = 68
+        Width = 96
+        Anchors = [akTop, akRight]
+        Caption = 'Задать'
+        OnClick = Button4Click
+        TabOrder = 7
+      end
+      object Button5: TButton
+        Left = 445
+        Height = 23
+        Top = 97
+        Width = 96
+        Anchors = [akTop, akRight]
+        Caption = 'Задать'
+        OnClick = Button5Click
+        TabOrder = 8
+      end
+      object Button6: TButton
+        Left = 445
+        Height = 23
+        Top = 128
+        Width = 96
+        Anchors = [akTop, akRight]
+        Caption = 'Задать'
+        OnClick = Button6Click
+        TabOrder = 9
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Параметры'
+      ClientHeight = 158
+      ClientWidth = 548
+      object FileSectionInfoCheckBox: TCheckBox
+        Tag = 1
+        Left = 7
+        Height = 19
+        Top = 8
+        Width = 268
+        Caption = 'Раздельные файлы результатов компиляции'
+        TabOrder = 0
+      end
+      object ProjectSymbolsCheckBox: TCheckBox
+        Tag = 1
+        Left = 7
+        Height = 19
+        Top = 32
+        Width = 201
+        Caption = 'Формирование файла символов'
+        TabOrder = 1
+      end
+      object ProjectDAsmCheckBox: TCheckBox
+        Tag = 1
+        Left = 7
+        Height = 19
+        Top = 56
+        Width = 214
+        Caption = 'Текст скомпилированного проекта'
+        TabOrder = 2
+      end
+      object DAsmSectionCheckBox: TCheckBox
+        Tag = 1
+        Left = 7
+        Height = 19
+        Top = 80
+        Width = 280
+        Caption = 'Текст скомпилированных секций кода проекта'
+        TabOrder = 3
+      end
+      object ResBINCheckBox: TCheckBox
+        Tag = 1
+        Left = 7
+        Height = 19
+        Top = 104
+        Width = 171
+        Caption = 'Результат в виде .bin файла'
+        TabOrder = 4
+      end
+      object ResHEXCheckBox: TCheckBox
+        Tag = 1
+        Left = 7
+        Height = 19
+        Top = 128
+        Width = 173
+        Caption = 'Результат в виде .hex файла'
+        TabOrder = 5
+      end
+      object SaveBeforeCompile: TCheckBox
+        Tag = 1
+        Left = 307
+        Height = 19
+        Top = 8
+        Width = 234
+        Caption = 'Сохранить проект перед компиляцией'
+        TabOrder = 6
+      end
+    end
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 36
+    Top = 186
+    Width = 556
+    Align = alBottom
+    BorderStyle = bsSingle
+    ClientHeight = 32
+    ClientWidth = 552
+    TabOrder = 1
+    object Button1: TButton
+      Left = 476
+      Height = 25
+      Top = 3
+      Width = 75
+      Anchors = [akTop, akRight]
+      Caption = 'Закрыть'
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+    object Button7: TButton
+      Left = 3
+      Height = 25
+      Top = 3
+      Width = 96
+      Caption = 'По умолчанию'
+      OnClick = Button7Click
+      TabOrder = 1
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 208
+  end
+end

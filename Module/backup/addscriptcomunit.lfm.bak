@@ -1,0 +1,111 @@
+object AddScriptComForm: TAddScriptComForm
+  Left = 376
+  Height = 363
+  Top = 135
+  Width = 725
+  BorderStyle = bsDialog
+  Caption = 'Добавить команду скрипта'
+  ClientHeight = 363
+  ClientWidth = 725
+  Font.CharSet = RUSSIAN_CHARSET
+  Font.Color = clBlack
+  Font.Height = -13
+  Font.Name = 'Courier New'
+  Font.Pitch = fpFixed
+  Font.Quality = fqDraft
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '2.0.10.0'
+  object ListBox1: TListBox
+    Left = 8
+    Height = 240
+    Top = 28
+    Width = 188
+    Items.Strings = (
+      'DIR_MAKE'
+      'FILE_PRESENT'
+      'FILE_COPY'
+      'FILE_COPY_ASK'
+      'MOD_WRITE'
+      'MOD_INSTALL'
+    )
+    ItemHeight = 16
+    OnSelectionChange = ListBox1SelectionChange
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 16
+    Top = 7
+    Width = 64
+    Caption = 'Команда:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 209
+    Height = 16
+    Top = 7
+    Width = 136
+    Caption = 'Описание команды:'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 204
+    Height = 238
+    Top = 29
+    Width = 514
+    Anchors = [akTop, akLeft, akRight]
+    Lines.Strings = (
+      'Memo1'
+    )
+    ScrollBars = ssAutoBoth
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 644
+    Height = 25
+    Top = 334
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'Добавить'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 7
+    Height = 25
+    Top = 334
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Отмена'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    Left = 10
+    Height = 16
+    Top = 281
+    Width = 208
+    Caption = 'Имя блока команд в списке:'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 227
+    Height = 24
+    Top = 277
+    Width = 489
+    Anchors = [akTop, akLeft, akRight]
+    OnChange = Edit1Change
+    TabOrder = 4
+  end
+  object NameToClipBrdCheckBox: TCheckBox
+    Left = 227
+    Height = 20
+    Top = 308
+    Width = 356
+    Caption = 'Имя блока команд сохранить в буфере обмена'
+    Checked = True
+    State = cbChecked
+    TabOrder = 5
+  end
+end

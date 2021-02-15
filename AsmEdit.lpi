@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="AsmEdit"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0"/>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="lnetvisual"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="uniqueinstance_package"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="57">
+      <Unit0>
+        <Filename Value="AsmEdit.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainUnit"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="Text\sourcetextunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SourceTextUnit"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Text\sourcelineunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SourceLineUnit"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Editor\editorunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EditorUnit"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="Text\CharsDecoder\charsdecoderunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CharsDecoderUnit"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Text\CharsDecoder\selectcharsetunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Text\CharsDecoder\selectcharsetunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SelectCharSetForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SelectCharSetUnit"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Text\tokensunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TokensUnit"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Editor\editorkeyunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EditorKeyUnit"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="formvalueinitunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FormValueInitUnit"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="Editor\editorconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EditorConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="EditorConfigUnit"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="configunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ConfigUnit"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="Project\projectunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ProjectUnit"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="Editor\editorfilesunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EditorFilesUnit"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="Project\projectconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ProjectConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ProjectConfigUnit"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="Project\mcuselectunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MCUSelectForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MCUSelectUnit"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="TextParser\textparserunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TextParserUnit"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="TextParser\Asm\asmtextparserunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AsmTextParserUnit"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="TextParser\dasmtextparserunit.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="TextParser\Asm\symbolsunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SymbolsUnit"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="TextParser\Asm\asmtextrulesunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AsmTextRulesUnit"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="Editor\editorconfighlunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EditorConfigHLForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="EditorConfigHLUnit"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="Text\SourceFunc\asmfuncunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AsmFuncUnit"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="Text\CharsDecoder\setcharsetunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="Text\CharsDecoder\setcharsetunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SetCharSetForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SetCharSetUnit"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="Editor\undoredounit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UndoRedoUnit"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="Text\SourceFunc\descunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="Text\SourceFunc\descunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DescForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="DescUnit"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="Text\SourceFunc\historyfilesunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HistoryFilesUnit"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="Text\SourceFunc\editvalueunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="Text\SourceFunc\editvalueunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="EditValueForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="EditValueUnit"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="aboutunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AboutUnit"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="Text\SourceFunc\symblistunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SymbListForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SymbListunit"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="TextParser\ldtextparserunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LDTextParserUnit"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="Module\moduleaddunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="Module\moduleaddunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ModuleAddForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ModuleAddUnit"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="Module\modulesunit.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="Module\modulesunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ModulesForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ModulesUnit"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="Module\scriptexecunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ScriptExecUnit"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="Compile\compileunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CompileUnit"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="Compile\gnuconfunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="GNUConfForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GNUConfUnit"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="Project\errmessnavigateunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ErrMessNavigateUnit"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="getstrunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="GetStrForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GetStrUnit"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="ST-Link\stlinkunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="STLinkUnit"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="ST-Link\stlinkconfunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="STLinkConfForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="STLinkConfUnit"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="Text\codeformatconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CodeFormatConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="CodeFormatConfigUnit"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="Module\addscriptcomunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AddScriptComForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AddScriptComUnit"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="Debug\debugunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DebugForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="DebugUnit"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="Debug\debugstructunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DebugStructUnit"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="Debug\openocdconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="OpenOCDConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="OpenOCDConfigUnit"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="Debug\mcuinfounit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MCUInfoUnit"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="Debug\debugmemunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DebugMemUnit"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="infounit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="InfoForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="InfoUnit"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="Debug\watchpointunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="WatchPointUnit"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="Text\SourceFunc\importconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImportConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ImportConfigUnit"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="Text\SourceFunc\fontimportconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FontImportConfigForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FontImportConfigUnit"/>
+      </Unit56>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="AsmEdit"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="Text;Editor;Text\CharsDecoder;Project;TextParser;TextParser\Asm;Text\SourceFunc;Module;Compile;ST-Link;Debug"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
