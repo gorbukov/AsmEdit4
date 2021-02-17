@@ -361,6 +361,7 @@ object EditorConfigForm: TEditorConfigForm
     Width = 84
     Anchors = [akRight, akBottom]
     Caption = 'Закрыть'
+    OnClick = Button6Click
     TabOrder = 1
   end
   object ColorDialog1: TColorDialog

@@ -50,7 +50,6 @@ type
     PageControl1: TPageControl;
     TabSheet1: TTabSheet;
     Editor_Num_Chars: TTrackBar;
-    TabSheet2: TTabSheet;
     CursorHorView: TTrackBar;
     CursorVertView: TTrackBar;
     procedure Button1Click(Sender: TObject);

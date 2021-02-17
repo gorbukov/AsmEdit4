@@ -9,7 +9,7 @@ object EditorConfigForm: TEditorConfigForm
   ClientWidth = 619
   OnActivate = FormActivate
   Position = poMainFormCenter
-  LCLVersion = '2.0.8.0'
+  LCLVersion = '2.0.10.0'
   object PageControl1: TPageControl
     Left = 3
     Height = 281
@@ -350,9 +350,6 @@ object EditorConfigForm: TEditorConfigForm
         end
       end
     end
-    object TabSheet2: TTabSheet
-      Caption = 'Подсветка кода'
-    end
   end
   object Button6: TButton
     Left = 531
@@ -388,13 +385,13 @@ object EditorConfigForm: TEditorConfigForm
       'ColorS=F0FBFF'
       'ColorT=A4A0A0'
     )
-    left = 232
-    top = 88
+    Left = 232
+    Top = 88
   end
   object FontDialog1: TFontDialog
     MinFontSize = 0
     MaxFontSize = 0
-    left = 232
-    top = 200
+    Left = 232
+    Top = 200
   end
 end

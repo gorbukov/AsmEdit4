@@ -395,7 +395,7 @@ type
   const
     // информация о версии редактора
     versionStr='версия 0.9.1 (для тестов)';
-    versionApp='02.02.2021';
+    versionApp='17.02.2021';
 
   var
   MainForm: TMainForm;
