@@ -4,8 +4,8 @@ object MainForm: TMainForm
   Top = 112
   Width = 995
   Caption = 'Assembler Editor Plus'
-  ClientHeight = 740
-  ClientWidth = 995
+  ClientHeight = 0
+  ClientWidth = 0
   KeyPreview = True
   Menu = MainMenu1
   OnCreate = FormCreate

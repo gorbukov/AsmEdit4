@@ -1346,8 +1346,10 @@ begin
 
   if symbolItems=nil then
     begin // редактирование имени файла
+      MainForm.OpenDialog1.Title:='Задать имя файла для вставки';
       MainForm.OpenDialog1.InitialDir:=ExtractFilePath(Project.SourcePath+'\');
       MainForm.OpenDialog1.FilterIndex:=4;
+      MainForm.OpenDialog1.FileName:='';
       if MainForm.OpenDialog1.Execute then
         begin
 //          strt1:=UTF8LowerCase(MainForm.OpenDialog1.FileName);

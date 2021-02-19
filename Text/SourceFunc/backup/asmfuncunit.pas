@@ -145,6 +145,9 @@ begin
       exit;
     end;
 
+  // точка сохранения изменений в тексте
+  Editor.SourceText.URList.AddItem;
+
   // перебор текста
   for i:=cy to fontText.Count-1 do
     begin
@@ -1343,6 +1346,7 @@ begin
 
   if symbolItems=nil then
     begin // редактирование имени файла
+      MainForm.OpenDialog1.Title:='Задать имя файла для вставки';
       MainForm.OpenDialog1.InitialDir:=ExtractFilePath(Project.SourcePath+'\');
       MainForm.OpenDialog1.FilterIndex:=4;
       if MainForm.OpenDialog1.Execute then
