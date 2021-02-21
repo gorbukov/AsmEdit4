@@ -19,9 +19,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MainUnit"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="1482"/>
-        <CursorPos X="8" Y="1490"/>
+        <TopLine Value="396"/>
+        <CursorPos X="19" Y="398"/>
         <ComponentState Value="1"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
@@ -239,7 +240,6 @@
         <Filename Value="Text\SourceFunc\asmfuncunit.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="AsmFuncUnit"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <TopLine Value="1335"/>
         <CursorPos X="41" Y="1352"/>
